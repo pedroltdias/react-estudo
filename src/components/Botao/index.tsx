@@ -2,8 +2,15 @@ import React from "react";
 
 class Botao extends React.Component {
     render() {
+        const color = 'white';
         return(
-            <button>
+            <button style={
+                {
+                    backgroundColor: 'blue',
+                    /* color: color */
+                    color
+                }
+            }>
                 Botão
             </button>
         );
